@@ -408,7 +408,6 @@ export default function Home() {
           <BridgeMotion />
           <div className="hero-portrait-card">
             <img alt="Saada Global Mobility consultant portrait" src="/hero-consultant-placeholder.webp" />
-            <span>{enhanced.placeholder}</span>
           </div>
         </div>
       </section>
