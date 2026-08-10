@@ -413,7 +413,7 @@ export default function Home() {
       </section>
 
       <section className="trust-band" aria-label="Qualifications">
-        <span><b>5</b> {language === "de" ? "Jahre Verwaltungspraxis" : language === "en" ? "years in public administration" : "سنوات خبرة إدارية"}</span>
+        <span><b>7</b> {language === "de" ? "Jahre Verwaltungspraxis" : language === "en" ? "years in public administration" : "سنوات خبرة إدارية"}</span>
         <span><b>LL.M.</b> Universität Tübingen</span>
         <span><b>DE</b> · EN · AR</span>
         <button onClick={openBooking} type="button">{copy.book} <span aria-hidden="true">↗</span></button>
