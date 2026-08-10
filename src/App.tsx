@@ -322,9 +322,6 @@ function BridgeMotion() {
 export default function Home() {
   const [language, setLanguage] = useState<Language>("de");
   const [menuOpen, setMenuOpen] = useState(false);
-  const [bookingOpen, setBookingOpen] = useState(false);
-  const [bookingStep, setBookingStep] = useState(0);
-  const [slot, setSlot] = useState("");
   const [needSelected, setNeedSelected] = useState<number | null>(null);
   const copy = heroCopy[language];
   const details = detailCopy[language];
@@ -337,9 +334,7 @@ export default function Home() {
   }, [language, rtl]);
 
   const openBooking = () => {
-    setBookingStep(0);
-    setSlot("");
-    setBookingOpen(true);
+    window.open("https://calendly.com/saleh-fekry/30min", "_blank", "noopener,noreferrer");
   };
 
   const anchors = ["home", "about", "services", "faq", "contact"];
@@ -583,25 +578,6 @@ export default function Home() {
         <small>© {new Date().getFullYear()} Saada Global Mobility</small>
       </footer>
 
-      {bookingOpen && (
-        <div className="modal-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) setBookingOpen(false); }}>
-          <section aria-labelledby="booking-title" aria-modal="true" className="booking-modal" role="dialog">
-            <button className="modal-close" aria-label={details.close} onClick={() => setBookingOpen(false)} type="button">×</button>
-            <div className="modal-brand"><span className="mini-mark">S</span><div><b>Saada Global Mobility</b><small>Calendly · Demo</small></div></div>
-            {bookingStep === 0 && <>
-              <p className="eyebrow">{details.choose}</p><h2 id="booking-title">{details.bookingTitle}</h2><p>{details.bookingIntro}</p>
-              <div className="slot-grid">{["Mo · 10:00", "Mo · 14:30", "Di · 09:30", "Mi · 16:00", "Do · 11:00", "Fr · 13:30"].map((item) => <button className={slot === item ? "chosen" : ""} key={item} onClick={() => setSlot(item)} type="button">{item}</button>)}</div>
-              <button className="button button-primary modal-action" disabled={!slot} onClick={() => setBookingStep(1)} type="button">{details.continue} →</button>
-            </>}
-            {bookingStep === 1 && <form onSubmit={(event) => { event.preventDefault(); setBookingStep(2); }}>
-              <p className="eyebrow">{details.details}</p><h2 id="booking-title">{slot}</h2>
-              <label>{details.name}<input required autoFocus /></label><label>{details.email}<input type="email" required /></label><label>{details.concern}<textarea rows={3} /></label>
-              <button className="button button-primary modal-action" type="submit">{details.confirm}</button>
-            </form>}
-            {bookingStep === 2 && <div className="success-state"><span className="success-icon">✓</span><p className="eyebrow">{details.success}</p><h2 id="booking-title">{slot}</h2><p>{details.successText}</p><div className="demo-note">{details.demoNote}</div><button className="button button-primary" onClick={() => setBookingOpen(false)} type="button">{details.close}</button></div>}
-          </section>
-        </div>
-      )}
     </main>
   );
 }
