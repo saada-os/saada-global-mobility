@@ -407,7 +407,7 @@ export default function Home() {
         <div className="hero-visual" aria-label="Saada Global Mobility – connection and shared progress">
           <BridgeMotion />
           <div className="hero-portrait-card">
-            <img alt="Temporary AI-generated visual for the future founder portrait" src="/hero-consultant-placeholder.webp" />
+            <img alt="Saada Global Mobility consultant portrait" src="/hero-consultant-placeholder.webp" />
             <span>{enhanced.placeholder}</span>
           </div>
         </div>
