@@ -334,7 +334,7 @@ export default function Home() {
   }, [language, rtl]);
 
   const openBooking = () => {
-    window.open("https://calendly.com/saleh-fekry/30min", "_blank", "noopener,noreferrer");
+    window.open("https://calendly.com/saada-mobility/30min", "_blank", "noopener,noreferrer");
   };
 
   const anchors = ["home", "about", "services", "faq", "contact"];
