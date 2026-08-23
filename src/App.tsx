@@ -222,7 +222,7 @@ const enhancementCopy = {
   de: {
     individual: "Ich bin eine internationale Fachkraft",
     company: "Ich vertrete ein Unternehmen",
-    placeholder: "KI-Platzhalter · nicht Salwa",
+    placeholder: "Salwa Saada",
     topicsTag: "Konkrete Anliegen",
     topicsTitle: "Unterstützung für die entscheidenden Schritte.",
     topics: ["EU Blue Card", "§§ 18a / 18b Fachkräfte", "Anerkennung von Qualifikationen", "Arbeitgeberwechsel", "Familiennachzug", "Niederlassungserlaubnis", "§ 81a beschleunigtes Verfahren", "Unterlagen & Behördenkommunikation"],
@@ -241,7 +241,7 @@ const enhancementCopy = {
   en: {
     individual: "I am an international professional",
     company: "I represent a company",
-    placeholder: "AI placeholder · not Salwa",
+    placeholder: "Salwa Saada",
     topicsTag: "Specific needs",
     topicsTitle: "Support for the steps that matter.",
     topics: ["EU Blue Card", "Sections 18a / 18b", "Qualification recognition", "Changing employers", "Family reunification", "Permanent residence", "Section 81a fast-track procedure", "Documents & authority communication"],
@@ -260,7 +260,7 @@ const enhancementCopy = {
   ar: {
     individual: "أنا من الكفاءات الدولية",
     company: "أمثل شركة",
-    placeholder: "صورة مؤقتة بالذكاء الاصطناعي · ليست سلوى",
+    placeholder: "سلوى سعادة",
     topicsTag: "احتياجات محددة",
     topicsTitle: "دعم في الخطوات الحاسمة.",
     topics: ["البطاقة الزرقاء للاتحاد الأوروبي", "المادتان 18a و18b", "الاعتراف بالمؤهلات", "تغيير صاحب العمل", "لمّ الشمل الأسري", "الإقامة الدائمة", "الإجراء المعجّل وفق §81a", "المستندات والتواصل مع الدوائر"],
@@ -402,7 +402,7 @@ export default function Home() {
         <div className="hero-visual" aria-label="Saada Global Mobility – connection and shared progress">
           <BridgeMotion />
           <div className="hero-portrait-card">
-            <img alt="Saada Global Mobility consultant portrait" src="/hero-consultant-placeholder.webp" />
+            <img alt="Saada Global Mobility consultant portrait" src="/Professionales_Foto.png" />
           </div>
         </div>
       </section>
