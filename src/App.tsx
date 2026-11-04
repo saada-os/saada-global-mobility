@@ -56,11 +56,19 @@ const nav = {
 const detailCopy = {
   de: {
     aboutTag: "Über mich",
-    aboutTitle: "Verwaltung verstehen. Perspektiven verbinden.",
+    aboutTitle: "Mein Weg. Meine Perspektive. Meine Motivation.",
     aboutLead:
-      "2015 kam ich mit meiner damals einjährigen Tochter nach Deutschland. Nach meinem Jurastudium in Damaskus entschied ich mich bewusst für einen Neuanfang in der deutschen Verwaltung.",
-    aboutBody:
-      "Als Verwaltungsfachangestellte, Sachbearbeiterin, fachliche Teamleiterin und Projektmanagerin für Digitalisierung habe ich die Abläufe der Ausländerbehörde aus nächster Nähe kennengelernt. Heute verbinde ich juristische Qualifikation, Verwaltungserfahrung und persönliche Migrationserfahrung, um internationale Fachkräfte und Unternehmen bundesweit zu unterstützen.",
+      "2015 kam ich mit meiner damals einjährigen Tochter als Geflüchtete nach Deutschland. Als alleinerziehende Mutter stand ich vor der Herausforderung, in einem neuen Land nicht nur ein Leben, sondern auch eine berufliche Zukunft von Grund auf neu aufzubauen.",
+    aboutBody: [
+      "Obwohl ich bereits ein Jurastudium in Damaskus abgeschlossen hatte, fühlte es sich zunächst an, als müsste ich bei null, manchmal sogar darunter, anfangen. Mein bisheriger beruflicher Weg ließ sich nicht einfach fortsetzen. Also entschied ich mich, meinen Weg in Deutschland bewusst neu zu gestalten.",
+      "Nachdem ich die deutsche Sprache bis zum Niveau C1 erlernt hatte, begann ich eine Ausbildung zur Verwaltungsfachangestellten. Mir war wichtig, nicht nur die theoretischen Grundlagen des deutschen Verwaltungssystems kennenzulernen, sondern gleichzeitig praktische Erfahrungen zu sammeln.",
+      "Damit begann mein beruflicher Weg im Ausländerrecht. Zunächst arbeitete ich in der Sachbearbeitung. Parallel dazu absolvierte ich meinen LL.M. an der Universität Tübingen. Später übernahm ich die fachliche Leitung eines Teams sowie das Projektmanagement für die Digitalisierung der Abteilung.",
+      "Auf diesem Weg habe ich beide Seiten kennengelernt: die Perspektive der Menschen, die auf eine Aufenthaltserlaubnis und eine verlässliche Orientierung hoffen, und die Perspektive der Verwaltungsmitarbeitenden, die täglich mit komplexen rechtlichen Anforderungen, vielen Anliegen und begrenzten Ressourcen umgehen müssen.",
+      "Ich weiß, wie belastend und zeitaufwendig solche Verfahren für beide Seiten sein können, wenn Informationen fehlen, Abläufe unklar sind oder die notwendige Struktur fehlt.",
+      "Auf diesen Weg und diesen Perspektivwechsel bin ich stolz. Denn genau daraus ist meine Motivation entstanden: Ich möchte Menschen und Unternehmen dabei unterstützen, aufenthaltsrechtliche Anforderungen und behördliche Abläufe besser zu verstehen, Anliegen gut vorzubereiten und Verfahren strukturiert anzugehen.",
+      "Mein Ziel ist es, Unsicherheiten zu reduzieren, Unternehmen und internationale Fachkräfte zu entlasten und auch die Zusammenarbeit mit den zuständigen Behörden zu erleichtern.",
+      "Denn gute Vorbereitung und klare Kommunikation schaffen nicht nur Orientierung für Antragstellende. Sie können auch die Arbeit der Verwaltung erleichtern.",
+    ],
     profile: "Salwa Saada",
     profileRole: "Gründerin · Saada Global Mobility",
     credentials: [
@@ -157,9 +165,18 @@ const detailCopy = {
   },
   en: {
     aboutTag: "About me",
-    aboutTitle: "Understanding administration. Connecting perspectives.",
-    aboutLead: "In 2015, I came to Germany with my then one-year-old daughter. After studying law in Damascus, I consciously chose a new beginning in German public administration.",
-    aboutBody: "As an administrative professional, case worker, team lead and digitalisation project manager, I learned the inner workings of the immigration authority first-hand. Today, I combine legal qualifications, administrative experience and my own migration experience to support international professionals and companies throughout Germany.",
+    aboutTitle: "My path. My perspective. My motivation.",
+    aboutLead: "In 2015, I came to Germany as a refugee with my daughter, who was then one year old. As a single mother, I faced the challenge of rebuilding not just a life but also a professional future from the ground up in a new country.",
+    aboutBody: [
+      "Although I had already completed a law degree in Damascus, it initially felt as if I had to start from zero, sometimes even below that. My previous professional path could not simply be continued. So I consciously decided to reshape my path in Germany.",
+      "After I had learned German to C1 level, I began vocational training as an administrative professional. It was important to me to learn not only the theoretical foundations of the German administrative system, but also to gain practical experience at the same time.",
+      "That is how my professional path in immigration law began. At first I worked as a case officer. In parallel, I completed my LL.M. at the University of Tübingen. Later I took over the technical leadership of a team as well as project management for the department's digitalisation.",
+      "Along the way, I came to know both sides: the perspective of people hoping for a residence permit and reliable orientation, and the perspective of administrative staff who deal daily with complex legal requirements, many concerns and limited resources.",
+      "I know how stressful and time-consuming such procedures can be for both sides when information is missing, processes are unclear or the necessary structure is absent.",
+      "I am proud of this path and this change of perspective. It is exactly what gave rise to my motivation: I want to help people and companies better understand residence requirements and official procedures, prepare their concerns well and approach procedures in a structured way.",
+      "My goal is to reduce uncertainty, relieve companies and international professionals, and make cooperation with the responsible authorities easier.",
+      "Good preparation and clear communication create orientation not only for applicants. They can also make the work of the administration easier.",
+    ],
     profile: "Salwa Saada", profileRole: "Founder · Saada Global Mobility",
     credentials: ["LL.M. · University of Tübingen (2023)", "Refugee Law Clinic · Residence and asylum law (2024)", "Former team lead at an immigration authority", "Former digitalisation project manager", "Support in German, English and Arabic"],
     audienceTag: "Who I work with", audienceTitle: "Two perspectives. One clear goal.",
@@ -187,9 +204,18 @@ const detailCopy = {
     bookingTitle: "Free introductory call", bookingIntro: "Choose a time to experience the demonstration. Your real Calendly link will later appear in exactly this place.", choose: "Choose a time", continue: "Continue", details: "Your details", concern: "Short description (optional)", confirm: "Complete demo booking", success: "This is the confirmation", successText: "With the live Calendly link, the client and consultant now automatically receive confirmation emails and the meeting is added to the connected calendar.", demoNote: "Demo mode: no real meeting was created and no email was sent.", close: "Close",
   },
   ar: {
-    aboutTag: "من أنا", aboutTitle: "أفهم الإدارة وأربط بين وجهات النظر.",
-    aboutLead: "وصلتُ إلى ألمانيا عام 2015 مع ابنتي التي كانت تبلغ عاماً واحداً. وبعد دراسة القانون في دمشق، اخترت أن أبدأ من جديد داخل الإدارة الألمانية.",
-    aboutBody: "عملتُ كموظفة إدارية، ومسؤولة ملفات، وقائدة فريق، ومديرة مشروع للتحول الرقمي، مما أتاح لي فهم إجراءات دائرة شؤون الأجانب عن قرب. واليوم أجمع بين التأهيل القانوني والخبرة الإدارية وتجربتي الشخصية مع الهجرة لدعم الكفاءات الدولية والشركات في جميع أنحاء ألمانيا.",
+    aboutTag: "من أنا", aboutTitle: "مساري. منظوري. دافعي.",
+    aboutLead: "وصلتُ إلى ألمانيا عام 2015 بصحبة ابنتي التي كانت تبلغ عاماً واحداً، لاجئةً. وكأم عازبة، واجهتُ تحدي بناء حياة جديدة في بلد جديد، بل وبناء مستقبل مهني من الصفر.",
+    aboutBody: [
+      "وعلى الرغم من أنني أنهيت دراسة القانون في دمشق، شعرتُ في البداية كأنني أبدأ من الصفر، بل أحياناً من ما دون الصفر. لم يكن بالإمكان متابعة مساري المهني السابق ببساطة، فقررتُ عن وعي أن أعيد تشكيل مساري في ألمانيا.",
+      "بعد أن تعلمتُ اللغة الألمانية حتى مستوى C1، بدأتُ تدريباً مهنياً كموظفة إدارية. كان مهماً لي أن أتعرف ليس فقط على الأسس النظرية للنظام الإداري الألماني، بل أن أكتسب خبرة عملية في الوقت نفسه.",
+      "وهكذا بدأ مساري المهني في قانون الأجانب. عملتُ في البداية في مجال معالجة الملفات، وبالتوازي أنجزتُ درجة LL.M. في جامعة توبنغن. وتولّيتُ لاحقاً القيادة الفنية لفريق، إلى جانب إدارة مشروع التحول الرقمي للدائرة.",
+      "وعلى هذا الطريق تعرفتُ على الجانبين: منظور الأشخاص الذين يأملون في تصريح إقامة وتوجيه موثوق، ومنظور موظفي الإدارة الذين يتعاملون يومياً مع متطلبات قانونية معقدة وكثير من الطلبات وموارد محدودة.",
+      "أعرف مدى إرهاق هذه الإجراءات وما تستغرقه من وقت بالنسبة للطرفين، عندما تغيب المعلومات أو تكون الإجراءات غير واضحة أو يفتقر الأمر إلى البنية اللازمة.",
+      "أنا فخورة بهذا المسار وبهذا التحول في المنظور. ومن هنا تحديداً نشأ دافعي: أن أساعد الأفراد والشركات على فهم متطلبات الإقامة والإجراءات الرسمية بشكل أفضل، وعلى إعداد طلباتهم جيداً ومعالجة الإجراءات بطريقة منظمة.",
+      "هدفي هو تقليل حالات عدم اليقين، والتخفيف عن الشركات والكفاءات الدولية، وتسهيل التعاون مع الجهات الرسمية المختصة.",
+      "فالتحضير الجيد والتواصل الواضح لا يمنحان المتقدمين توجيهاً أفضل فحسب، بل يسهّلان أيضاً عمل الإدارة.",
+    ],
     profile: "سلوى سعادة", profileRole: "المؤسِّسة · Saada Global Mobility",
     credentials: ["ماجستير قانون LL.M. · جامعة توبنغن (2023)", "Refugee Law Clinic · قانون الإقامة واللجوء (2024)", "قائدة فريق سابقة في دائرة شؤون الأجانب", "مديرة مشروع سابقة للتحول الرقمي", "دعم بالألمانية والإنجليزية والعربية"],
     audienceTag: "لمن أعمل", audienceTitle: "منظوران وهدف واضح واحد.",
@@ -437,7 +463,7 @@ export default function Home() {
         <div className="about-grid">
           <div className="about-story">
             <p className="lead-paragraph">{details.aboutLead}</p>
-            <p>{details.aboutBody}</p>
+            {details.aboutBody.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
             <blockquote>“{language === "de" ? "Einige Jahre zuvor saß ich selbst auf der anderen Seite des Schreibtisches." : language === "en" ? "Only a few years earlier, I had been sitting on the other side of that desk myself." : "قبل سنوات قليلة فقط، كنتُ أنا نفسي أجلس على الجانب الآخر من ذلك المكتب."}”</blockquote>
           </div>
           <aside className="profile-card">
