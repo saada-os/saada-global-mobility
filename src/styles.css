@@ -108,7 +108,6 @@ a { color: inherit; text-decoration: none; }
 .trust-band { min-height: 94px; padding: 0 clamp(24px, 5.5vw, 88px); display: grid; grid-template-columns: repeat(3, 1fr) auto; align-items: center; gap: 0; background: var(--paper); border-bottom: 1px solid var(--line); box-shadow: 0 12px 32px rgba(3,31,54,.08); position: relative; z-index: 4; }
 .trust-band > span { min-height: 52px; display: flex; align-items: center; gap: 9px; padding-inline: 24px; border-inline-end: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 .trust-band > span:first-child { padding-inline-start: 0; }
-.trust-band b { color: var(--petrol); font-family: var(--font-cormorant), Georgia, serif; font-size: 22px; }
 .trust-band button { min-height: 46px; margin-inline-start: 28px; padding: 0 22px; border: 0; border-radius: 5px; background: var(--navy); color: #fff; font-weight: 750; cursor: pointer; }
 .trust-band button span { color: var(--gold); margin-inline-start: 8px; }
 @keyframes cable-flow { to { stroke-dashoffset: -84; } }
